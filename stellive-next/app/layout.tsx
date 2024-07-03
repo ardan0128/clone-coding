@@ -15,7 +15,9 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <TopNav></TopNav>
+        <header>
+          <TopNav></TopNav>
+        </header>
         {children}
       </body>
     </html>

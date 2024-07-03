@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function TopNav() {
   return (
-    <div className="flex">
+    <div className="flex ">
       <div>
         <a>
           <Image src={'/logo.png'} alt="" width={100} height={30}></Image>
