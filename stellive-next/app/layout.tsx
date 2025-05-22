@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import TopNav from './ui/top-nav';
+import Navbar from '@/components/Navbar';
 
 export const metadata: Metadata = {
   title: '스텔라이브',
@@ -15,9 +15,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <header>
-          <TopNav></TopNav>
-        </header>
+        <Navbar />
         {children}
       </body>
     </html>

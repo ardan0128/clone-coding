@@ -1,0 +1,3 @@
+.navbar {
+  @apply bg-gray-200 sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-purple-200 hd:bg-pink-200 fhd:bg-indigo-200 qhd:bg-teal-200 uhd:bg-black text-white;
+}
