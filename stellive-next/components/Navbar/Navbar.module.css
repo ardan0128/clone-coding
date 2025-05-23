@@ -1,3 +1,32 @@
 .navbar {
-  @apply bg-gray-200 sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-purple-200 hd:bg-pink-200 fhd:bg-indigo-200 qhd:bg-teal-200 uhd:bg-black text-white;
+  @apply px-1;
+  @apply bg-gray-200;
+  @apply sm:bg-red-200;
+  @apply md:bg-yellow-200;
+  @apply lg:bg-green-200;
+  @apply xl:bg-blue-200;
+  @apply 2xl:bg-purple-200;
+
+  /* hd: 1024px */
+  @apply hd:bg-pink-200;
+
+  /* fhd: 1440px */
+  @apply fhd:bg-indigo-200;
+  @apply fhd:max-w-[1280px];
+  @apply fhd:flex items-center justify-between;
+
+  /* qhd: 1920px */
+  @apply qhd:bg-teal-200;
+
+  /* uhd: 3840px */
+  @apply uhd:bg-black;
+  @apply text-white;
+}
+
+.navbar-left {
+  @apply flex items-center;
+}
+
+.navbar-right {
+  @apply flex items-center;
 }
