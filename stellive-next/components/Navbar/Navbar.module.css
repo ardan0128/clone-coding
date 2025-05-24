@@ -29,26 +29,34 @@
 
 .navbarRight {
   @apply flex items-center;
-  @apply fhd:space-x-10;
+  @apply justify-center;
+  @apply gap-8;
 }
 
 .navLink {
   @apply relative;
   @apply text-gray-800;
   @apply font-medium;
+  @apply inline-flex;
+  @apply items-center;
+  @apply justify-center;
+
+  @apply fhd:text-lg;
+  @apply fhd:font-semibold;
 }
 
 .navLink::after {
   content: '';
   @apply absolute;
   @apply right-0;
-  @apply bottom-0;
+  @apply -bottom-1;
   @apply h-[2px];
   @apply w-0;
   @apply bg-gray-800;
   @apply transition-all;
   @apply duration-300;
   @apply ease-in-out;
+  @apply origin-right;
 }
 
 .navLink:hover::after {

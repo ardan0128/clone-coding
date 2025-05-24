@@ -13,26 +13,26 @@ export default function Navbar() {
         </Link>
       </div>
       <div className={styles.navbarRight}>
-        <Link href="/" className={styles.navLink}>
-          ABOUT
+        <Link href="/">
+          <span className={styles.navLink}>ABOUT</span>
         </Link>
-        <Link href="/" className={styles.navLink}>
-          NEWS
+        <Link href="/">
+          <span className={styles.navLink}>NEWS</span>
         </Link>
-        <Link href="/" className={styles.navLink}>
-          TALENTS
+        <Link href="/">
+          <span className={styles.navLink}>TALENTS</span>
         </Link>
-        <Link href="/" className={styles.navLink}>
-          MUSIC
+        <Link href="/">
+          <span className={styles.navLink}>MUSIC</span>
         </Link>
-        <Link href="/" className={styles.navLink}>
-          GOODS
+        <Link href="/">
+          <span className={styles.navLink}>GOODS</span>
         </Link>
-        <Link href="/" className={styles.navLink}>
-          GUIDELINE
+        <Link href="/">
+          <span className={styles.navLink}>GUIDELINE</span>
         </Link>
-        <Link href="/" className={styles.navLink}>
-          CONTACT
+        <Link href="/">
+          <span className={styles.navLink}>CONTACT</span>
         </Link>
       </div>
     </nav>
