@@ -1,5 +1,4 @@
 .navbar {
-  @apply px-1;
   @apply bg-gray-200;
   @apply sm:bg-red-200;
   @apply md:bg-yellow-200;
@@ -14,6 +13,7 @@
   @apply fhd:bg-indigo-200;
   @apply fhd:max-w-[1280px];
   @apply fhd:flex items-center justify-between;
+  @apply fhd:h-20;
 
   /* qhd: 1920px */
   @apply qhd:bg-teal-200;
@@ -23,10 +23,36 @@
   @apply text-white;
 }
 
-.navbar-left {
+.navbarLeft {
   @apply flex items-center;
 }
 
-.navbar-right {
+.navbarRight {
   @apply flex items-center;
+  @apply fhd:space-x-10;
+}
+
+.navLink {
+  @apply relative;
+  @apply text-gray-800;
+  @apply font-medium;
+}
+
+.navLink::after {
+  content: '';
+  @apply absolute;
+  @apply right-0;
+  @apply bottom-0;
+  @apply h-[2px];
+  @apply w-0;
+  @apply bg-gray-800;
+  @apply transition-all;
+  @apply duration-300;
+  @apply ease-in-out;
+}
+
+.navLink:hover::after {
+  @apply w-full;
+  right: unset;
+  @apply left-0;
 }
