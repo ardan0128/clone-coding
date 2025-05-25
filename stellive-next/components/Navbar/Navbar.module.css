@@ -1,4 +1,9 @@
 .navbar {
+  @apply w-full;
+  @apply flex;
+  @apply justify-center;
+  @apply mx-auto;
+
   @apply bg-gray-200;
   @apply sm:bg-red-200;
   @apply md:bg-yellow-200;

@@ -1,10 +1,16 @@
-import Image from 'next/image';
-import TopNav from './ui/top-nav';
+import { Carousel, CarouselItem } from '@/components/Carousel';
 
 export default function Home() {
   return (
     <main>
-      <h1>home</h1>
+      <Carousel>
+        <CarouselItem>
+          <div>Item 1</div>
+        </CarouselItem>
+        <CarouselItem>
+          <div>Item 2</div>
+        </CarouselItem>
+      </Carousel>
     </main>
   );
 }

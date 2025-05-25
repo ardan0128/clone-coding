@@ -1,0 +1,19 @@
+.carousel {
+  @apply w-full;
+  @apply bg-red-500;
+  @apply fhd:h-[770px];
+}
+
+.carouselInner {
+  @apply w-full;
+  @apply h-full;
+  @apply bg-red-300;
+
+  @apply fhd:max-w-[1280px];
+  @apply fhd:mx-auto;
+}
+
+.carouselItem {
+  @apply w-full;
+  @apply h-full;
+}

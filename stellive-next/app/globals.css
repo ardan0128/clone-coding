@@ -6,5 +6,5 @@
   @apply mx-auto;
   @apply w-full;
 
-  @apply hd:max-w-[1280px];
+  @apply hd:max-w-[1920px];
 }
