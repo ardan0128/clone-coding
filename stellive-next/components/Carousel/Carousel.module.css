@@ -2,12 +2,14 @@
   @apply w-full;
   @apply bg-red-500;
   @apply fhd:h-[770px];
+  @apply bg-cover;
+  @apply bg-center;
+  @apply bg-no-repeat;
 }
 
 .carouselInner {
   @apply w-full;
   @apply h-full;
-  @apply bg-red-300;
 
   @apply fhd:max-w-[1280px];
   @apply fhd:mx-auto;
@@ -16,4 +18,14 @@
 .carouselItem {
   @apply w-full;
   @apply h-full;
+  @apply relative;
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+  @apply overflow-hidden;
+}
+
+.image {
+  @apply object-cover;
+  @apply object-center;
 }
