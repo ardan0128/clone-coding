@@ -1,6 +1,5 @@
 .carousel {
   @apply w-full;
-  @apply bg-red-500;
   @apply fhd:h-[770px];
   @apply bg-cover;
   @apply bg-center;
