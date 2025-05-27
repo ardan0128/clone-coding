@@ -1,0 +1,15 @@
+.newsPreview {
+  @apply bg-red-300;
+  @apply mx-auto;
+  @apply items-center;
+  @apply justify-center;
+
+  @apply fhd:max-w-[1280px];
+}
+
+.newsPreview__title {
+  @apply flex;
+  @apply flex-col;
+  @apply items-center;
+  @apply justify-center;
+}
