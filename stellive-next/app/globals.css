@@ -6,3 +6,12 @@
   @apply mx-auto;
   @apply w-full;
 }
+
+.body {
+  background-image: url('/images/background-image.png'); /* 이미지 경로 */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* 스크롤해도 배경 고정 */
+  min-height: 100vh;
+}
